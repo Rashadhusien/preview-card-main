@@ -29,8 +29,9 @@ p {
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
-  padding: 1rem;
+  padding: 20px;
   box-shadow: 10px 10px 0px black;
+
   .image > img {
     border-radius: 10px;
     width: 100%;
@@ -39,7 +40,7 @@ p {
     span {
       padding: 5px 10px;
       background-color: hsl(47, 88%, 63%);
-      margin: 10px auto;
+      margin: 15px auto;
       display: inline-block;
       border-radius: 5px;
     }
@@ -55,8 +56,9 @@ p {
     .text-of-p {
       max-width: 350px;
       font-weight: 600;
-      margin: 10px 0;
+      margin: 14px 0 20px 0;
       letter-spacing: 0.5px;
+      color: hsl(0, 0%, 50%);
     }
   }
   .img {
@@ -64,9 +66,18 @@ p {
     align-items: center;
     img {
       margin-right: 10px;
+      width: 40px;
     }
     .name {
       font-weight: 800;
     }
   }
+}
+
+.content .image {
+  background-image: url(assets/images/illustration-article.svg);
+  background-size: cover;
+  width: 100%;
+  height: 234px;
+  border-radius: 10px;
 }
